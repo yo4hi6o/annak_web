@@ -365,7 +365,7 @@ a:focus {
 
 @media (max-width: 992px) {
   .trans-navigation {
-    background: rgb(104, 102, 102);
+    background:  linear-gradient(180deg, rgba(144, 144, 145, 0.9) 0%, rgba(33, 34, 34, 0.95) 100%);
     box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
     border-radius: 0px;
   }
