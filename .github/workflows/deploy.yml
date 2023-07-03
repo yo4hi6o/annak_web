@@ -1,0 +1,27 @@
+name: Web_Deploy
+
+on:
+  push:
+    branches: 
+      - main
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+      - name: List directory
+        run: ls
+      - name: ssh key generate
+        run: |
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > key
+          chmod 600 key
+      - name: List directory
+        run: |
+          pwd
+          ls -la
+      - name: rsync deploy
+        run: rsync -avuzr -e "ssh -i key -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 10022" --delete theme/ annak@annak.xsrv.jp:/home/annak/annak.xsrv.jp/public_html/my_website/
