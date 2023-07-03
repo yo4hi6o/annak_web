@@ -19,5 +19,9 @@ jobs:
         run: |
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > key
           chmod 600 key
+      - name: List directory
+        run: |
+          pwd
+          ls -la
       - name: rsync deploy
         run: rsync -avuzr -e "ssh -i key -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 10022" --delete annak_web/ annak@annak.xsrv.jp:/home/annak/annak.xsrv.jp/public_html/annak_web/
