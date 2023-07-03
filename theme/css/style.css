@@ -1645,7 +1645,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: linear-gradient(180deg, rgba(144, 144, 145, 0.1) 0%, rgba(33, 34, 34, 0.1) 100%);
+    background: linear-gradient(180deg, rgba(144, 144, 145, 0.0) 0%, rgba(33, 34, 34, 0.0) 100%);
   }
   #map {
     margin-top: 40px;
@@ -1676,7 +1676,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: linear-gradient(180deg, rgba(144, 144, 145, 0.1) 0%, rgba(33, 34, 34, 0.1) 100%);
+    background: linear-gradient(180deg, rgba(144, 144, 145, 0.0) 0%, rgba(33, 34, 34, 0.0) 100%);
   }
   .top-info-block {
     text-align: center;
@@ -1898,7 +1898,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: linear-gradient(180deg, rgba(144, 144, 145, 0.1) 0%, rgba(33, 34, 34, 0.1) 100%);
+    background: linear-gradient(180deg, rgba(144, 144, 145, 0.0) 0%, rgba(33, 34, 34, 0.0) 100%);
   }
   .web-service-block {
     margin-bottom: 30px;
