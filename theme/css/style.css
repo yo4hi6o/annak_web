@@ -41,6 +41,7 @@ body {
   line-height: 1.75;
   margin: 0;
   text-align: left;
+  /* 2段目背景色 */
   background-color: #fff;
   font-weight: 400;
   color: #6c757d;
@@ -61,10 +62,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Muli", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 700;
   line-height: 1.35;
   margin-bottom: 0.5rem;
+  /* 2段目文字色 */
   color: #212529;
 }
 
@@ -133,7 +135,7 @@ img {
 
 .img-thumbnail {
   padding: 0.25rem;
-  border: 1px solid #dee2e6;
+  border: 1px solid #e6e0de;
   background-color: #fff;
 }
 
@@ -160,6 +162,8 @@ img {
     padding-top: 10.3125rem;
   }
 }
+
+/* 3段目背景色変更 */
 .bg-grey {
   background: #F4F7FC;
 }
@@ -188,6 +192,8 @@ img {
   justify-content: center;
 }
 
+
+/* 購入ボタンの枠の色変更 */
 .btn-outline-dark {
   border: 1px solid #222;
 }
@@ -226,8 +232,9 @@ img {
 .bg-primary,
 .btn-primary,
 .btn-white:hover {
-  background: #21c87a !important;
-  border-color: #21c87a !important;
+  /* purcharse butoon */
+  background: #6c757d !important;
+  border-color: #fff !important;
   color: #fff;
 }
 
@@ -280,11 +287,11 @@ img {
 }
 
 .bg-primary {
-  background: #21c87a !important;
+  background: #6c6e6d !important;
 }
 
 a {
-  color: #21c87a;
+  color: #6c6e6d;
   transition: 0.3s;
 }
 
@@ -292,7 +299,7 @@ a:hover,
 a:focus {
   outline: none;
   text-decoration: none;
-  color: #1a9c5f;
+  color: #6c6e6d;
 }
 
 /*----------------------
@@ -306,7 +313,7 @@ a:focus {
   padding: 8px;
 }
 .header-socials li a {
-  color: #21c87a;
+  color: #6c6e6d;
 }
 
 /*-----------------
@@ -326,7 +333,7 @@ a:focus {
 
 .icon-block {
   margin-right: 20px;
-  color: #21c87a;
+  color: #6c6e6d;
   font-size: 40px;
   line-height: 20px;
   font-weight: 400;
@@ -350,14 +357,15 @@ a:focus {
  HOME-3
 ---------------------------*/
 .header-white {
-  background: #21c87a;
-  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
+  /* グラデーション */
+  background:  linear-gradient(180deg, rgba(144, 144, 145, 0.9) 0%, rgba(33, 34, 34, 0.95) 100%);
+  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.9);
   border-radius: 0px;
 }
 
 @media (max-width: 992px) {
   .trans-navigation {
-    background: #21c87a;
+    background: rgb(104, 102, 102);
     box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
     border-radius: 0px;
   }
@@ -399,7 +407,7 @@ a:focus {
 }
 
 /* =========================
-PRELOADER
+PRELOADER　ページ読み込み時の色
 =======================*/
 #page-loader {
   background: #fff;
@@ -497,6 +505,7 @@ PAGE BANNER
   background-size: cover;
 }
 
+/* アバウトページの文字色 */
 .page-banner-content h1 {
   color: #fff;
 }
@@ -641,7 +650,7 @@ PAGE BANNER
   border-radius: 4px;
 }
 .has-dropdown .dropdown-menu a:focus, .has-dropdown .dropdown-menu a:hover {
-  background: #21c87a;
+  background: #505553;
   color: #fff;
 }
 
@@ -678,7 +687,7 @@ PAGE BANNER
 
 .dropdown-submenu:hover > .dropdown-item,
 .dropdown-item:hover {
-  background: #21c87a;
+  background: #505553;
   color: #fff !important;
 }
 
@@ -737,7 +746,7 @@ ul.dropdown-menu li {
 }
 
 /*-------------------------
- HOME -2 
+ HOME-2 の文字色などの変更
 -----------------------------*/
 #banner {
   position: relative;
@@ -749,8 +758,9 @@ ul.dropdown-menu li {
   padding: 150px 0px;
   padding-right: 30px;
 }
+
 .banner-content p {
-  color: #eee;
+  color: #fff;
   padding-right: 80px;
   margin-bottom: 30px !important;
 }
@@ -777,8 +787,10 @@ ul.dropdown-menu li {
 
 #banner-3 {
   position: relative;
-  background: url("../images/banner/banner.jpg") no-repeat;
+  background: url("../images/banner/robot_arm5.jpg") no-repeat;
   background-size: cover;
+  background-color: transparent;
+
 }
 
 #banner-4 {
@@ -797,7 +809,7 @@ ul.dropdown-menu li {
   position: absolute;
   content: "";
   top: -27px;
-  background-color: #21c87a;
+  background-color: #6e6c6c;
   opacity: 0.3;
   width: 80px;
   right: 70px;
@@ -820,7 +832,7 @@ ABOUT-2
   box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
 }
 #about .img-block img {
-  border: 5px solid #21c87a;
+  border: 5px solid #6c6e6d;
 }
 
 .pt-6 {
@@ -835,7 +847,7 @@ ABOUT-2
  SERVICE
 -----------------------*/
 h5.subtitle {
-  color: #21c87a;
+  color: #6c6e6d;
   margin-bottom: 10px;
   font-weight: 300;
 }
@@ -865,7 +877,8 @@ h5.subtitle {
   font-size: 25px;
   width: 50px;
   height: 50px;
-  background: #21c87a;
+  /* アイコンカラー変更 */
+  background: #6c6e6d;
   text-align: center;
   border-radius: 50%;
   padding-top: 5px;
@@ -894,7 +907,8 @@ h5.subtitle {
   top: 0px;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(30deg, rgba(121, 110, 255, 0.95) 0%, rgba(33, 200, 122, 0.95) 100%);
+  /* グラデーション */
+  background-image: linear-gradient(30deg, rgba(239, 238, 243, 0.95) 0%, rgba(33, 34, 34, 0.95) 100%);
 }
 
 .web-service-block {
@@ -905,6 +919,8 @@ h5.subtitle {
   border: 1px solid rgba(255, 255, 255, 0.05);
   margin-bottom: 10px;
 }
+
+/* サービスページアイコンカラー */
 .web-service-block i {
   font-size: 70px;
   margin-bottom: 30px;
@@ -952,15 +968,17 @@ h5.subtitle {
   color: #a9a9a9 !important;
 }
 
+
+/* ////////////////バナー前面画像設定////////////////////// */
 .overlay {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.92);
+  background: rgba(8, 8, 8, 0.6);
 }
-
+/* グラデーション */
 .overlay.feature-overlay {
   background-image: linear-gradient(30deg, rgba(121, 110, 255, 0.95) 0%, rgba(33, 200, 122, 0.95) 100%);
   opacity: 0.9;
@@ -1398,7 +1416,9 @@ CONTACT PAGE
   right: 30px;
   bottom: 50px;
   z-index: 999;
-  background: #21c87a;
+
+  /* スクロールトップアイコンの色変更 */
+  background: #565a58;
   color: #fff !important;
   border-radius: 100%;
   opacity: 0;
