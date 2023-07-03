@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Rappo By Themefisher
 
 Rappo is a set of landing and support pages aimed at helping companies promote new products and business launches.
@@ -122,3 +123,6 @@ Some third-party plugins that we used to build this template. Please check their
 * **Themify Icons**: <https://themify.me/themify-icons/>
 * **Font Awesome Free**: <https://fontawesome.com/>
 * **Slick**: <https://kenwheeler.github.io/slick/>
+=======
+# annak_web
+>>>>>>> d354edb62b92aa1f19626e60685d219504b5720f
