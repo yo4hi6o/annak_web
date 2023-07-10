@@ -479,9 +479,16 @@ PAGE BANNER
 
 .page-service {
   position: relative;
-  padding: 180px 0px;
-  background: url("../images/banner/service.jpg") fixed 50% 50% no-repeat;
-  background-size: cover;
+  padding: 240px 0px;
+  background: url("../images/banner/ai_product1.jpg") fixed 0% 0% no-repeat;
+  background-size: contain;
+}
+
+.page-robot {
+  position: relative;
+  padding: 240px 0px;
+  background: url("../images/banner/ros5.png") fixed 0% 0% no-repeat;
+  background-size: contain;
 }
 
 .page-about {
@@ -866,6 +873,12 @@ h5.subtitle {
   padding-top: 60px;
   padding-left: 15px;
 }
+
+.custom-content {
+  padding-top: 60px;
+  padding-left: 15px;
+}
+
 .service-content h1 {
   margin-bottom: 20px;
   margin-top: 15px;
