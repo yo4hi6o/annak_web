@@ -480,15 +480,15 @@ PAGE BANNER
 .page-service {
   position: relative;
   padding: 240px 0px;
-  background: url("../images/banner/ai_product1.jpg") fixed 0% 0% no-repeat;
-  background-size: contain;
+  background: url("../images/banner/ai_product1.jpg") fixed 50% 50% no-repeat;
+  background-size: cover;
 }
 
 .page-robot {
   position: relative;
   padding: 240px 0px;
-  background: url("../images/banner/ros5.png") fixed 0% 0% no-repeat;
-  background-size: contain;
+  background: url("../images/banner/ros7.png") fixed 50% 50% no-repeat;
+  background-size: cover;
 }
 
 .page-about {
