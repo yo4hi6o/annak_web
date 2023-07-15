@@ -24,4 +24,4 @@ jobs:
           pwd
           ls -la
       - name: rsync deploy
-        run: rsync -avuzr -e "ssh -i key -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 10022" --delete theme/ annak@annak.xsrv.jp:/home/annak/annak.xsrv.jp/public_html/
+        run: rsync -avuzr -e "ssh -i key -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 10022" --delete theme/ annak@annak.ne.jp:/home/annak/annak.ne.jp/public_html/
