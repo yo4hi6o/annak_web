@@ -75,29 +75,7 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarWelcome">
             <li><a class="dropdown-item" href="index.html">Home</a></li>
-            <!-- <li><a class="dropdown-item" href="index-2.html">School</a></li> -->
-            <!-- <li><a class="dropdown-item" href="index-3.html">Home-3</a></li>
-            <li><a class="dropdown-item" href="index-4.html">Home-4</a></li> -->
-
-            <!-- サブメニュー -->
-            <!-- <li class="dropdown dropdown-submenu dropright">
-              <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-
-              <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
-                <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
-              </ul>
-            </li> -->
-            <!-- <li class="dropdown dropdown-submenu dropleft">
-              <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-
-              <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
-                <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
-              </ul>
-            </li> -->
+            <li><a class="dropdown-item" href="index-2.html">School</a></li>
           </ul>
         </li>
         <li class="nav-item ">
@@ -181,132 +159,38 @@
     </section>
 
     <section class="section" id="contact">
-        <div class="container">
-            <div class="row mb-4">
-                <div class="col-md-10 col-lg-8">
-                    <h5>
+      <div class="container">
+          <div class="row">
+              <!-- お問い合わせフォーム -->
+              <div class="col-lg-6 col-md-6">
+                  <h5>
                       <span class="font-weight-normal"></span>メッセージを書く</h5>
-                    <!-- Heading -->
-                    <h2 class="section-title mb-2 ">
-                       <span class="font-weight-normal">お問い合わせフォーム</span>
-                    </h2>
-
-                    <!-- Subheading -->
-                    <p class="mb-5 ">
-                      以下のフォームに必要な項目を入力のうえ「SEND MESSAGE」ボタンを押してください。
-                      <br>折り返し担当からご連絡させていただきます。
-                                                                </p>
-
-                </div>
-            </div> <!-- / .row -->
-
-            <div class="row">
-                <div class="col-lg-6">
-                   <!-- form message -->
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                                Your message was sent successfully.
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end message -->
-                    <!-- Contacts Form -->
-                    <form class="contact_form" action="mail.php">
-                        <div class="row">
-                            <!-- Input -->
-                            <div class="col-sm-6 mb-6">
-                                <div class="form-group">
-                                    <label class="h6 small d-block text-uppercase">
-                                        お名前
-                                        <span class="text-danger">*</span>
-                                    </label>
-
-                                    <div class="input-group">
-                                        <input class="form-control" name="name" id="name" required="" placeholder="山田　一郎" type="text">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Input -->
-
-                            <!-- Input -->
-                            <div class="col-sm-6 mb-6">
-                                <div class="form-group">
-                                    <label class="h6 small d-block text-uppercase">
-                                        メールアドレス
-                                        <span class="text-danger">*</span>
-                                    </label>
-
-                                    <div class="input-group ">
-                                        <input class="form-control" name="email" id="email" required="" placeholder="yamada@gmail.com" type="email">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Input -->
-
-                            <div class="w-100"></div>
-
-                            <!-- Input -->
-                            <div class="col-sm-6 mb-6">
-                                <div class="form-group">
-                                    <label class="h6 small d-block text-uppercase">
-                                        件名
-                                        <span class="text-danger">*</span>
-                                    </label>
-
-                                    <div class="input-group">
-                                        <input class="form-control" name="subject" id="subject" required="" placeholder="ロボットについて" type="text">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Input -->
-
-                            <!-- Input -->
-                            <div class="col-sm-6 mb-6">
-                                <div class="form-group">
-                                    <label class="h6 small d-block text-uppercase">
-                                        お電話番号
-                                        <span class="text-danger">*</span>
-                                    </label>
-
-                                    <div class="input-group ">
-                                        <input class="form-control" id="phone" name="phone" required="" placeholder="090-1234-5678" type="text">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Input -->
-                        </div>
-
-                        <!-- Input -->
-                        <div class="form-group mb-5">
-                            <label class="h6 small d-block text-uppercase">
-                                お問い合わせ内容
-                                <span class="text-danger">*</span>
-                            </label>
-
-                            <div class="input-group">
-                                <textarea class="form-control" rows="4" name="message" id="message" required="" placeholder="仕様について ..."></textarea>
-                            </div>
-                        </div>
-                        <!-- End Input -->
-
-                        <div class="">
-                           <input name="submit" type="submit" class="btn btn-primary btn-circled" value="Send Message">
-                           
-                            <p class="small pt-3">1-2営業日以内にご返信いたします。</p>
-                        </div>
-                    </form>
-                    <!-- End Contacts Form -->
-                </div>
-
-                <div class="col-lg-6 col-md-6">
-                    <!-- START MAP -->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.662352115251!2d130.72981477708893!3d32.7746926841023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3540f39ef32451b5%3A0x9deb17f196a539d1!2z44CSODYyLTA5NDIg54aK5pys55yM54aK5pys5biC5p2x5Yy65rGf5rSl77yS5LiB55uu77yT77yS4oiS77yV77yS!5e0!3m2!1sja!2sjp!4v1689216206789!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <!-- END MAP -->
-                </div>
-            </div>
-        </div>
-    </section>
+                  <!-- Heading -->
+                  <h2 class="section-title mb-2 ">
+                      <span class="font-weight-normal">お問い合わせフォームへ</span>
+                  </h2>
+  
+                  <!-- Subheading -->
+                  <p class="mb-5 ">
+                      以下の「問い合わせフォームへ」ボタンを押して、必要事項を記述して下さい。<br>
+                      折り返し担当からご連絡させていただきます。
+                  </p>
+  
+                  <div class="">
+                    <a href="https://annak.ne.jp/contact/" class="btn btn-primary btn-circled">問い合わせフォームへ</a>
+                    <p class="small pt-3">1-2営業日以内にご返信いたします。</p>
+                 </div>              </div>
+  
+              <!-- Google Maps -->
+              <div class="col-lg-6 col-md-6">
+                  <!-- START MAP -->
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.662352115251!2d130.72981477708893!3d32.7746926841023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3540f39ef32451b5%3A0x9deb17f196a539d1!2z44CSODYyLTA5NDIg54aK5pys55yM54aK5pys5biC5p2x5Yy65rGf5rSl77yS5LiB55uu77yT77yS4oiS77yV77yS!5e0!3m2!1sja!2sjp!4v1689216206789!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <!-- END MAP -->
+              </div>
+          </div>
+      </div>
+  </section>
+  
  <footer class="section " id="footer">
    <div class="overlay footer-overlay"></div>
    <!--Content -->
