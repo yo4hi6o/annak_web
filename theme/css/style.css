@@ -152,7 +152,7 @@ img {
 
 @media (min-width: 768px) {
   .section {
-    padding: 7.5rem 0;
+    padding: 4.5rem 0;
   }
 }
 .section-top {
@@ -480,6 +480,20 @@ PAGE BANNER
   position: relative;
   padding: 180px 0px;
   background: url("../images/banner/p-6.jpg") fixed 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.page-robot_purchase {
+  position: relative;
+  padding: 180px 0px;
+  background: url("../images/banner/robot1.jpg") fixed 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.page-robot_sales {
+  position: relative;
+  padding: 180px 0px;
+  background: url("../images/banner/densorobot1.jpg") fixed 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -1239,12 +1253,12 @@ PRICING-2
 }
 
 .single-blog {
-  padding-top: 25px;
+  padding-top: 15px;
   position: relative;
 }
 
 .bg-light .single-blog {
-  padding: 40px;
+  padding: 20px;
   text-align: center;
   border-bottom: 1px solid #eee;
 }
@@ -1254,10 +1268,10 @@ PRICING-2
 }
 .blog-content a h3 {
   transition: all 0.3s ease 0s;
-  margin: 15px 0px;
+  margin: 10px 0px;
 }
 .blog-content p {
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 .blog-content:hover a h3 {
   color: #21c87a;
