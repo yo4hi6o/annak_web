@@ -504,6 +504,13 @@ PAGE BANNER
   background-size: cover;
 }
 
+.page-ai_robot_service {
+  position: relative;
+  padding: 240px 0px;
+  background: url("../images/blog/知能ロボット化サービス3.jpg") fixed 50% 50% no-repeat;
+  background-size: cover;
+}
+
 .page-robot {
   position: relative;
   padding: 240px 0px;
