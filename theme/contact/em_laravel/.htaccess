@@ -1,0 +1,7 @@
+#order deny,allow
+#deny from all
+
+SetEnvIf Request_URI "(\.(sql|sqlite|sqlite3|db|php|log|txt|dat|csv|ini|editorconfig|env|example|gitattributes|gitignore|yml|lock|xml|md|sass|scss|ts|tsx)|/(app|bootstrap|config|database|resources/lang|resources/js|resources/sass|resources/view/admin|resources/view/auth|resources/view/layouts|routes|storage|vendor|Tests)/|(artisan|server.php))$" ng_dir
+Order Allow,Deny
+Allow from all
+Deny from env=ng_dir
